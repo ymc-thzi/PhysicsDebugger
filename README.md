@@ -11,7 +11,7 @@ The Debugger will draw the real physicsBody, not just the shape dimensions.
 
 ## Installation ##
 
-Copy the files from the /physicsDebugger/* folder into your Sprite Kit project manually
+Copy the files from the PhysicsDebugger/YMCPhysicsDebugger/* folder into your Sprite Kit project manually
 
 * YMCPhysicsDebugger.h
 * YMCPhysicsDebugger.m
