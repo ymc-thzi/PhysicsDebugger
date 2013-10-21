@@ -4,7 +4,7 @@ iOS 7 Sprite Kit PhysicsDebugger
 
 Developing in iOS 7 Sprite Kit with physicsBodies is fun and easy. There are no debugging options for the physics engine. 
 You will reach the point where you have to see the physicsBodies you created to expect their behaviour.
-Including this PhysicsDebugger files or install the cocoaPod, make an init and a render call and all your physicsBodies will be displayed.
+Including this PhysicsDebugger files, make an init and a render call and all your physicsBodies will be displayed.
 The Debugger will draw the real physicsBody, not just the shape dimensions.
 
 ![Valid XHTML] (http://www.ymc.ch/wp-content/uploads/2013/10/physics_debugger_small.png)
