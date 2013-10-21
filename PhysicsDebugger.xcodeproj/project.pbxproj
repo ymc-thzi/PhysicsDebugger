@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		275CA55C181575F0000061F1 /* YMCPhysicsDebugger.m in Sources */ = {isa = PBXBuildFile; fileRef = 275CA553181575F0000061F1 /* YMCPhysicsDebugger.m */; };
+		275CA55D181575F0000061F1 /* YMCPhysicsDebugProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 275CA555181575F0000061F1 /* YMCPhysicsDebugProperties.m */; };
+		275CA55E181575F0000061F1 /* YMCSKNode+PhysicsDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 275CA557181575F0000061F1 /* YMCSKNode+PhysicsDebug.m */; };
+		275CA55F181575F0000061F1 /* YMCSKPhysicsBody+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 275CA559181575F0000061F1 /* YMCSKPhysicsBody+Swizzle.m */; };
+		275CA560181575F0000061F1 /* YMCSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 275CA55B181575F0000061F1 /* YMCSwizzler.m */; };
+		2778DFA2180BF1F9000CF1B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2778DFA1180BF1F9000CF1B3 /* Foundation.framework */; };
+		2778DFA4180BF1F9000CF1B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2778DFA3180BF1F9000CF1B3 /* CoreGraphics.framework */; };
+		2778DFA6180BF1F9000CF1B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2778DFA5180BF1F9000CF1B3 /* UIKit.framework */; };
+		2778DFA8180BF1F9000CF1B3 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2778DFA7180BF1F9000CF1B3 /* SpriteKit.framework */; };
+		2778DFAE180BF1F9000CF1B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2778DFAC180BF1F9000CF1B3 /* InfoPlist.strings */; };
+		2778DFB0180BF1F9000CF1B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2778DFAF180BF1F9000CF1B3 /* main.m */; };
+		2778DFB4180BF1F9000CF1B3 /* YMCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2778DFB3180BF1F9000CF1B3 /* YMCAppDelegate.m */; };
+		2778DFB7180BF1F9000CF1B3 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2778DFB5180BF1F9000CF1B3 /* Main_iPhone.storyboard */; };
+		2778DFBA180BF1F9000CF1B3 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2778DFB8180BF1F9000CF1B3 /* Main_iPad.storyboard */; };
+		2778DFBD180BF1F9000CF1B3 /* YMCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2778DFBC180BF1F9000CF1B3 /* YMCViewController.m */; };
+		2778DFC0180BF1F9000CF1B3 /* YMCDemoScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 2778DFBF180BF1F9000CF1B3 /* YMCDemoScene.m */; };
+		2778DFC4180BF1F9000CF1B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2778DFC3180BF1F9000CF1B3 /* Images.xcassets */; };
+		2778DFCB180BF1F9000CF1B3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2778DFCA180BF1F9000CF1B3 /* XCTest.framework */; };
+		2778DFCC180BF1F9000CF1B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2778DFA1180BF1F9000CF1B3 /* Foundation.framework */; };
+		2778DFCD180BF1F9000CF1B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2778DFA5180BF1F9000CF1B3 /* UIKit.framework */; };
+		2778DFD5180BF1F9000CF1B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2778DFD3180BF1F9000CF1B3 /* InfoPlist.strings */; };
+		2778DFD7180BF1F9000CF1B3 /* PhysicsDebuggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2778DFD6180BF1F9000CF1B3 /* PhysicsDebuggerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2778DFCE180BF1F9000CF1B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2778DF96180BF1F9000CF1B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2778DF9D180BF1F9000CF1B3;
+			remoteInfo = PhysicsDebugger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		275CA552181575F0000061F1 /* YMCPhysicsDebugger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YMCPhysicsDebugger.h; path = YMCPhysicsDebugger/YMCPhysicsDebugger.h; sourceTree = "<group>"; };
+		275CA553181575F0000061F1 /* YMCPhysicsDebugger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YMCPhysicsDebugger.m; path = YMCPhysicsDebugger/YMCPhysicsDebugger.m; sourceTree = "<group>"; };
+		275CA554181575F0000061F1 /* YMCPhysicsDebugProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YMCPhysicsDebugProperties.h; path = YMCPhysicsDebugger/YMCPhysicsDebugProperties.h; sourceTree = "<group>"; };
+		275CA555181575F0000061F1 /* YMCPhysicsDebugProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YMCPhysicsDebugProperties.m; path = YMCPhysicsDebugger/YMCPhysicsDebugProperties.m; sourceTree = "<group>"; };
+		275CA556181575F0000061F1 /* YMCSKNode+PhysicsDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "YMCSKNode+PhysicsDebug.h"; path = "YMCPhysicsDebugger/YMCSKNode+PhysicsDebug.h"; sourceTree = "<group>"; };
+		275CA557181575F0000061F1 /* YMCSKNode+PhysicsDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "YMCSKNode+PhysicsDebug.m"; path = "YMCPhysicsDebugger/YMCSKNode+PhysicsDebug.m"; sourceTree = "<group>"; };
+		275CA558181575F0000061F1 /* YMCSKPhysicsBody+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "YMCSKPhysicsBody+Swizzle.h"; path = "YMCPhysicsDebugger/YMCSKPhysicsBody+Swizzle.h"; sourceTree = "<group>"; };
+		275CA559181575F0000061F1 /* YMCSKPhysicsBody+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "YMCSKPhysicsBody+Swizzle.m"; path = "YMCPhysicsDebugger/YMCSKPhysicsBody+Swizzle.m"; sourceTree = "<group>"; };
+		275CA55A181575F0000061F1 /* YMCSwizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YMCSwizzler.h; path = YMCPhysicsDebugger/YMCSwizzler.h; sourceTree = "<group>"; };
+		275CA55B181575F0000061F1 /* YMCSwizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YMCSwizzler.m; path = YMCPhysicsDebugger/YMCSwizzler.m; sourceTree = "<group>"; };
+		2778DF9E180BF1F9000CF1B3 /* PhysicsDebugger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhysicsDebugger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2778DFA1180BF1F9000CF1B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2778DFA3180BF1F9000CF1B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2778DFA5180BF1F9000CF1B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2778DFA7180BF1F9000CF1B3 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		2778DFAB180BF1F9000CF1B3 /* PhysicsDebugger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhysicsDebugger-Info.plist"; sourceTree = "<group>"; };
+		2778DFAD180BF1F9000CF1B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2778DFAF180BF1F9000CF1B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2778DFB1180BF1F9000CF1B3 /* PhysicsDebugger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhysicsDebugger-Prefix.pch"; sourceTree = "<group>"; };
+		2778DFB2180BF1F9000CF1B3 /* YMCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMCAppDelegate.h; sourceTree = "<group>"; };
+		2778DFB3180BF1F9000CF1B3 /* YMCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMCAppDelegate.m; sourceTree = "<group>"; };
+		2778DFB6180BF1F9000CF1B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		2778DFB9180BF1F9000CF1B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		2778DFBB180BF1F9000CF1B3 /* YMCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YMCViewController.h; path = PhysicsDebugger/YMCViewController.h; sourceTree = "<group>"; };
+		2778DFBC180BF1F9000CF1B3 /* YMCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YMCViewController.m; path = PhysicsDebugger/YMCViewController.m; sourceTree = "<group>"; };
+		2778DFBE180BF1F9000CF1B3 /* YMCDemoScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YMCDemoScene.h; path = PhysicsDebugger/YMCDemoScene.h; sourceTree = "<group>"; };
+		2778DFBF180BF1F9000CF1B3 /* YMCDemoScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YMCDemoScene.m; path = PhysicsDebugger/YMCDemoScene.m; sourceTree = "<group>"; };
+		2778DFC3180BF1F9000CF1B3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2778DFC9180BF1F9000CF1B3 /* PhysicsDebuggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhysicsDebuggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2778DFCA180BF1F9000CF1B3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2778DFD2180BF1F9000CF1B3 /* PhysicsDebuggerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhysicsDebuggerTests-Info.plist"; sourceTree = "<group>"; };
+		2778DFD4180BF1F9000CF1B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2778DFD6180BF1F9000CF1B3 /* PhysicsDebuggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhysicsDebuggerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2778DF9B180BF1F9000CF1B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2778DFA4180BF1F9000CF1B3 /* CoreGraphics.framework in Frameworks */,
+				2778DFA6180BF1F9000CF1B3 /* UIKit.framework in Frameworks */,
+				2778DFA8180BF1F9000CF1B3 /* SpriteKit.framework in Frameworks */,
+				2778DFA2180BF1F9000CF1B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2778DFC6180BF1F9000CF1B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2778DFCB180BF1F9000CF1B3 /* XCTest.framework in Frameworks */,
+				2778DFCD180BF1F9000CF1B3 /* UIKit.framework in Frameworks */,
+				2778DFCC180BF1F9000CF1B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2778DF95180BF1F9000CF1B3 = {
+			isa = PBXGroup;
+			children = (
+				27E1B318181033F400F549D0 /* DemoScene */,
+				2778DFA9180BF1F9000CF1B3 /* PhysicsDebugger */,
+				2778DFAA180BF1F9000CF1B3 /* Supporting Files */,
+				2778DFD0180BF1F9000CF1B3 /* PhysicsDebuggerTests */,
+				2778DFA0180BF1F9000CF1B3 /* Frameworks */,
+				2778DF9F180BF1F9000CF1B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2778DF9F180BF1F9000CF1B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2778DF9E180BF1F9000CF1B3 /* PhysicsDebugger.app */,
+				2778DFC9180BF1F9000CF1B3 /* PhysicsDebuggerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2778DFA0180BF1F9000CF1B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2778DFA1180BF1F9000CF1B3 /* Foundation.framework */,
+				2778DFA3180BF1F9000CF1B3 /* CoreGraphics.framework */,
+				2778DFA5180BF1F9000CF1B3 /* UIKit.framework */,
+				2778DFA7180BF1F9000CF1B3 /* SpriteKit.framework */,
+				2778DFCA180BF1F9000CF1B3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2778DFA9180BF1F9000CF1B3 /* PhysicsDebugger */ = {
+			isa = PBXGroup;
+			children = (
+				275CA552181575F0000061F1 /* YMCPhysicsDebugger.h */,
+				275CA553181575F0000061F1 /* YMCPhysicsDebugger.m */,
+				275CA554181575F0000061F1 /* YMCPhysicsDebugProperties.h */,
+				275CA555181575F0000061F1 /* YMCPhysicsDebugProperties.m */,
+				275CA556181575F0000061F1 /* YMCSKNode+PhysicsDebug.h */,
+				275CA557181575F0000061F1 /* YMCSKNode+PhysicsDebug.m */,
+				275CA558181575F0000061F1 /* YMCSKPhysicsBody+Swizzle.h */,
+				275CA559181575F0000061F1 /* YMCSKPhysicsBody+Swizzle.m */,
+				275CA55A181575F0000061F1 /* YMCSwizzler.h */,
+				275CA55B181575F0000061F1 /* YMCSwizzler.m */,
+			);
+			path = PhysicsDebugger;
+			sourceTree = "<group>";
+		};
+		2778DFAA180BF1F9000CF1B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2778DFC3180BF1F9000CF1B3 /* Images.xcassets */,
+				2778DFB2180BF1F9000CF1B3 /* YMCAppDelegate.h */,
+				2778DFB3180BF1F9000CF1B3 /* YMCAppDelegate.m */,
+				2778DFB5180BF1F9000CF1B3 /* Main_iPhone.storyboard */,
+				2778DFB8180BF1F9000CF1B3 /* Main_iPad.storyboard */,
+				2778DFAB180BF1F9000CF1B3 /* PhysicsDebugger-Info.plist */,
+				2778DFAC180BF1F9000CF1B3 /* InfoPlist.strings */,
+				2778DFAF180BF1F9000CF1B3 /* main.m */,
+				2778DFB1180BF1F9000CF1B3 /* PhysicsDebugger-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = PhysicsDebugger;
+			sourceTree = "<group>";
+		};
+		2778DFD0180BF1F9000CF1B3 /* PhysicsDebuggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2778DFD6180BF1F9000CF1B3 /* PhysicsDebuggerTests.m */,
+				2778DFD1180BF1F9000CF1B3 /* Supporting Files */,
+			);
+			path = PhysicsDebuggerTests;
+			sourceTree = "<group>";
+		};
+		2778DFD1180BF1F9000CF1B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2778DFD2180BF1F9000CF1B3 /* PhysicsDebuggerTests-Info.plist */,
+				2778DFD3180BF1F9000CF1B3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27E1B318181033F400F549D0 /* DemoScene */ = {
+			isa = PBXGroup;
+			children = (
+				2778DFBB180BF1F9000CF1B3 /* YMCViewController.h */,
+				2778DFBC180BF1F9000CF1B3 /* YMCViewController.m */,
+				2778DFBE180BF1F9000CF1B3 /* YMCDemoScene.h */,
+				2778DFBF180BF1F9000CF1B3 /* YMCDemoScene.m */,
+			);
+			name = DemoScene;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2778DF9D180BF1F9000CF1B3 /* PhysicsDebugger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2778DFDA180BF1F9000CF1B3 /* Build configuration list for PBXNativeTarget "PhysicsDebugger" */;
+			buildPhases = (
+				2778DF9A180BF1F9000CF1B3 /* Sources */,
+				2778DF9B180BF1F9000CF1B3 /* Frameworks */,
+				2778DF9C180BF1F9000CF1B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhysicsDebugger;
+			productName = PhysicsDebugger;
+			productReference = 2778DF9E180BF1F9000CF1B3 /* PhysicsDebugger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2778DFC8180BF1F9000CF1B3 /* PhysicsDebuggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2778DFDD180BF1F9000CF1B3 /* Build configuration list for PBXNativeTarget "PhysicsDebuggerTests" */;
+			buildPhases = (
+				2778DFC5180BF1F9000CF1B3 /* Sources */,
+				2778DFC6180BF1F9000CF1B3 /* Frameworks */,
+				2778DFC7180BF1F9000CF1B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2778DFCF180BF1F9000CF1B3 /* PBXTargetDependency */,
+			);
+			name = PhysicsDebuggerTests;
+			productName = PhysicsDebuggerTests;
+			productReference = 2778DFC9180BF1F9000CF1B3 /* PhysicsDebuggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2778DF96180BF1F9000CF1B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YMC;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = YMC;
+				TargetAttributes = {
+					2778DFC8180BF1F9000CF1B3 = {
+						TestTargetID = 2778DF9D180BF1F9000CF1B3;
+					};
+				};
+			};
+			buildConfigurationList = 2778DF99180BF1F9000CF1B3 /* Build configuration list for PBXProject "PhysicsDebugger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2778DF95180BF1F9000CF1B3;
+			productRefGroup = 2778DF9F180BF1F9000CF1B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2778DF9D180BF1F9000CF1B3 /* PhysicsDebugger */,
+				2778DFC8180BF1F9000CF1B3 /* PhysicsDebuggerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2778DF9C180BF1F9000CF1B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2778DFC4180BF1F9000CF1B3 /* Images.xcassets in Resources */,
+				2778DFBA180BF1F9000CF1B3 /* Main_iPad.storyboard in Resources */,
+				2778DFB7180BF1F9000CF1B3 /* Main_iPhone.storyboard in Resources */,
+				2778DFAE180BF1F9000CF1B3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2778DFC7180BF1F9000CF1B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2778DFD5180BF1F9000CF1B3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2778DF9A180BF1F9000CF1B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275CA55F181575F0000061F1 /* YMCSKPhysicsBody+Swizzle.m in Sources */,
+				2778DFC0180BF1F9000CF1B3 /* YMCDemoScene.m in Sources */,
+				275CA55C181575F0000061F1 /* YMCPhysicsDebugger.m in Sources */,
+				275CA560181575F0000061F1 /* YMCSwizzler.m in Sources */,
+				275CA55D181575F0000061F1 /* YMCPhysicsDebugProperties.m in Sources */,
+				2778DFBD180BF1F9000CF1B3 /* YMCViewController.m in Sources */,
+				275CA55E181575F0000061F1 /* YMCSKNode+PhysicsDebug.m in Sources */,
+				2778DFB4180BF1F9000CF1B3 /* YMCAppDelegate.m in Sources */,
+				2778DFB0180BF1F9000CF1B3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2778DFC5180BF1F9000CF1B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2778DFD7180BF1F9000CF1B3 /* PhysicsDebuggerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2778DFCF180BF1F9000CF1B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2778DF9D180BF1F9000CF1B3 /* PhysicsDebugger */;
+			targetProxy = 2778DFCE180BF1F9000CF1B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2778DFAC180BF1F9000CF1B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2778DFAD180BF1F9000CF1B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2778DFB5180BF1F9000CF1B3 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2778DFB6180BF1F9000CF1B3 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		2778DFB8180BF1F9000CF1B3 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2778DFB9180BF1F9000CF1B3 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		2778DFD3180BF1F9000CF1B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2778DFD4180BF1F9000CF1B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2778DFD8180BF1F9000CF1B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2778DFD9180BF1F9000CF1B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2778DFDB180BF1F9000CF1B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhysicsDebugger/PhysicsDebugger-Prefix.pch";
+				INFOPLIST_FILE = "PhysicsDebugger/PhysicsDebugger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2778DFDC180BF1F9000CF1B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhysicsDebugger/PhysicsDebugger-Prefix.pch";
+				INFOPLIST_FILE = "PhysicsDebugger/PhysicsDebugger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2778DFDE180BF1F9000CF1B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhysicsDebugger.app/PhysicsDebugger";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhysicsDebugger/PhysicsDebugger-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PhysicsDebuggerTests/PhysicsDebuggerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2778DFDF180BF1F9000CF1B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhysicsDebugger.app/PhysicsDebugger";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhysicsDebugger/PhysicsDebugger-Prefix.pch";
+				INFOPLIST_FILE = "PhysicsDebuggerTests/PhysicsDebuggerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2778DF99180BF1F9000CF1B3 /* Build configuration list for PBXProject "PhysicsDebugger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2778DFD8180BF1F9000CF1B3 /* Debug */,
+				2778DFD9180BF1F9000CF1B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2778DFDA180BF1F9000CF1B3 /* Build configuration list for PBXNativeTarget "PhysicsDebugger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2778DFDB180BF1F9000CF1B3 /* Debug */,
+				2778DFDC180BF1F9000CF1B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2778DFDD180BF1F9000CF1B3 /* Build configuration list for PBXNativeTarget "PhysicsDebuggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2778DFDE180BF1F9000CF1B3 /* Debug */,
+				2778DFDF180BF1F9000CF1B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2778DF96180BF1F9000CF1B3 /* Project object */;
+}
