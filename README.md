@@ -51,3 +51,6 @@ PhysicsBody method calls:
 * bodyWithEdgeChainFromPath
 
 Sprite Kit Nodes that will be added after the [self drawPhysicsBodies]; call will not be drawn.
+
+## The way it works ##
+![Valid XHTML] (http://www.ymc.ch/wp-content/uploads/2013/10/PhysicsDebugger-Architecture-New-Page.png)
