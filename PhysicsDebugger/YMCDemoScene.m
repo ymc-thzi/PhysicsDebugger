@@ -10,7 +10,6 @@
 
 //import the physics debugger and the drawing category
 #import "YMCPhysicsDebugger.h"
-#import "YMCSKNode+PhysicsDebug.h"
 
 
 @implementation YMCDemoScene
