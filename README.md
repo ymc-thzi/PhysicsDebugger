@@ -37,8 +37,6 @@ import the header files to your scene:
 
 >**import "YMCPhysicsDebugger.h"**
 
->**import "YMCSKNode+PhysicsDebug.h"**
-
 Before your SKNodes are created init the debugger:  
 >**[YMCPhysicsDebugger init];**
 
