@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-
 #import "YMCSKNode+PhysicsDebug.h"
 
 @interface YMCPhysicsDebugger : NSObject
