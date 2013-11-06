@@ -9,7 +9,7 @@
 @interface YMCPhysicsDebugProperties : NSObject{
 }
 
-@property (nonatomic, assign) NSMutableArray* nodesNBodies;
+@property (nonatomic) NSMutableArray* nodesNBodies;
 
 + (YMCPhysicsDebugProperties *)instance;
 
