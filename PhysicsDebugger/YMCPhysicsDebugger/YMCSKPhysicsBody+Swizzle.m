@@ -9,6 +9,9 @@
 #import "YMCSKPhysicsBody+Swizzle.h"
 #import "YMCPhysicsDebugProperties.h"
 
+void YMCSwizzler(Class originalClass,
+                 SEL orig,
+                 SEL new);
 
 @implementation SKPhysicsBody (Swizzle)
 
