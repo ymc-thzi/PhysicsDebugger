@@ -16,7 +16,7 @@ void YMCSwizzler(Class originalClass,
 @implementation SKPhysicsBody (Swizzle)
 
 
-+ (SKPhysicsBody *)bodyWithCircleOfRadiusSwizzled:(float)radius
++ (SKPhysicsBody *)bodyWithCircleOfRadiusSwizzled:(CGFloat)radius
 {
     
     //Save the physicsBody Radius to draw a shape with this afterwards
