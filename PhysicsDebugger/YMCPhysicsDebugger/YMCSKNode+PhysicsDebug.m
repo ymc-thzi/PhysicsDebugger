@@ -43,7 +43,7 @@ static NSString* debugLayerName = @"physicsDebugLayer";
     int i = 0;
     //draw all children with physicsBodies
     for (SKNode *node in [self children]) {
- 
+        [node drawPhysicsBodies];
         //sort out if it has no physics body
         if(!node.physicsBody) {
             continue;
