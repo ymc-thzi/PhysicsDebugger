@@ -48,6 +48,11 @@ static NSString* debugLayerName = @"physicsDebugLayer";
         if(!node.physicsBody) {
             continue;
         }
+
+        //prevent exception if no nodes are found in array
+        if (![YMCPhysicsDebugProperties instance].nodesNBodies.count) {
+            continue;
+        }
         
         //clear all drawn physicDebugLayers of this node
         [[node childNodeWithName:debugLayerName] removeFromParent];
