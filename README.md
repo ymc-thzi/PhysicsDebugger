@@ -7,7 +7,7 @@ You will reach the point where you have to see the physicsBodies you created to 
 Include this PhysicsDebugger files (via CocoaPods or manually), make an init and a render call and all your physicsBodies will be displayed.
 The Debugger will draw the real physicsBody, not just the shape dimensions.
 
-![Valid XHTML] (http://www.ymc.ch/wp-content/uploads/2013/10/physics_debugger_small.png)
+![Valid XHTML] (http://multisite.wp.ymc.ch/wp-content/uploads/2016/10/physics_debugger1.png)
 
 ## Installation ##
 
@@ -58,4 +58,4 @@ PhysicsBody method calls:
 Sprite Kit Nodes that will be added after the [self drawPhysicsBodies]; call will not be drawn.
 
 ## The way it works ##
-![Valid XHTML] (http://www.ymc.ch/wp-content/uploads/2013/10/PhysicsDebugger-Architecture-New-Page.png)
+![Valid XHTML] (http://multisite.wp.ymc.ch/wp-content/uploads/2016/10/PhysicsDebugger-Architecture-New-Page-2.png)
