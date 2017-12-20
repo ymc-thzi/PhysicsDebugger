@@ -7,8 +7,6 @@ You will reach the point where you have to see the physicsBodies you created to 
 Include this PhysicsDebugger files (via CocoaPods or manually), make an init and a render call and all your physicsBodies will be displayed.
 The Debugger will draw the real physicsBody, not just the shape dimensions.
 
-![Valid XHTML] (http://multisite.wp.ymc.ch/wp-content/uploads/2016/10/physics_debugger1.png)
-
 ## Installation ##
 
 ### CocoaPods ###
