@@ -55,5 +55,3 @@ PhysicsBody method calls:
 
 Sprite Kit Nodes that will be added after the [self drawPhysicsBodies]; call will not be drawn.
 
-## The way it works ##
-![Valid XHTML] (http://multisite.wp.ymc.ch/wp-content/uploads/2016/10/PhysicsDebugger-Architecture-New-Page-2.png)
